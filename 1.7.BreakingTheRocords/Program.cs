@@ -16,18 +16,15 @@ class Result
 {
 
     /*
-     * Complete the 'timeConversion' function below.
+     * Complete the 'breakingRecords' function below.
      *
-     * The function is expected to return a STRING.
-     * The function accepts STRING s as parameter.
+     * The function is expected to return an INTEGER_ARRAY.
+     * The function accepts INTEGER_ARRAY scores as parameter.
      */
 
-    public static string timeConversion(string s)
+    public static List<int> breakingRecords(List<int> scores)
     {
 
-        bool isTime = DateTime.TryParseExact(s, "hh:mm:sstt", System.Globalization.CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime resultTime);
-
-        return resultTime.ToString("HH:mm:ss");
     }
 
 }
@@ -38,11 +35,13 @@ class Solution
     {
         TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
-        string s = Console.ReadLine();
+        int n = Convert.ToInt32(Console.ReadLine().Trim());
 
-        string result = Result.timeConversion(s);
+        List<int> scores = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(scoresTemp => Convert.ToInt32(scoresTemp)).ToList();
 
-        textWriter.WriteLine(result);
+        List<int> result = Result.breakingRecords(scores);
+
+        textWriter.WriteLine(String.Join(" ", result));
 
         textWriter.Flush();
         textWriter.Close();
