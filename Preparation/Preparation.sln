@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.5.CountingSort1", "..\1.5
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.6.TimeConversion", "..\1.6.TimeConversion\1.6.TimeConversion.csproj", "{51A4495C-8BDF-4137-B366-1EB03E0DF3B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.7.BreakingTheRocords", "..\1.7.BreakingTheRocords\1.7.BreakingTheRocords.csproj", "{C14B54A8-F574-4231-AFB9-576118D0400A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.7.BreakingTheRocords", "..\1.7.BreakingTheRocords\1.7.BreakingTheRocords.csproj", "{C14B54A8-F574-4231-AFB9-576118D0400A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.8.CamelCase4", "..\1.8.CamelCase4\1.8.CamelCase4.csproj", "{F912ADAC-82E7-41DC-B13D-6D85E2DCE80E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{C14B54A8-F574-4231-AFB9-576118D0400A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C14B54A8-F574-4231-AFB9-576118D0400A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C14B54A8-F574-4231-AFB9-576118D0400A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F912ADAC-82E7-41DC-B13D-6D85E2DCE80E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F912ADAC-82E7-41DC-B13D-6D85E2DCE80E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F912ADAC-82E7-41DC-B13D-6D85E2DCE80E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F912ADAC-82E7-41DC-B13D-6D85E2DCE80E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
