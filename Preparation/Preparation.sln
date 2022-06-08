@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.8.CamelCase4", "..\1.8.Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.9.DivisibleSumPairs", "..\1.9.DivisibleSumPairs\1.9.DivisibleSumPairs.csproj", "{5931F0CD-3155-4669-BC51-83A495AFD91D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparseArrays", "..\SparseArrays\SparseArrays.csproj", "{B0F4B760-5A78-40AC-B415-43A707230F07}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{5931F0CD-3155-4669-BC51-83A495AFD91D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5931F0CD-3155-4669-BC51-83A495AFD91D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5931F0CD-3155-4669-BC51-83A495AFD91D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0F4B760-5A78-40AC-B415-43A707230F07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0F4B760-5A78-40AC-B415-43A707230F07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0F4B760-5A78-40AC-B415-43A707230F07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0F4B760-5A78-40AC-B415-43A707230F07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
