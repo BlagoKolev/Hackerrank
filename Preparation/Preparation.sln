@@ -29,6 +29,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.2.GradingStudents", "..\2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.3.CountingValleys", "..\2.3.CountingValleys\2.3.CountingValleys.csproj", "{A240B4C7-6471-4AC4-B800-2A9411A7B5C2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.4.Pangrams", "..\2.4.Pangrams\2.4.Pangrams.csproj", "{B6B8BE3B-2C02-48D0-B0CB-A7CEFCB7E7DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E8707F11-C453-4C7C-BADE-B1274785C2BA}"
+	ProjectSection(SolutionItems) = preProject
+		Conditions.txt = Conditions.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +94,10 @@ Global
 		{A240B4C7-6471-4AC4-B800-2A9411A7B5C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A240B4C7-6471-4AC4-B800-2A9411A7B5C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A240B4C7-6471-4AC4-B800-2A9411A7B5C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6B8BE3B-2C02-48D0-B0CB-A7CEFCB7E7DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6B8BE3B-2C02-48D0-B0CB-A7CEFCB7E7DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6B8BE3B-2C02-48D0-B0CB-A7CEFCB7E7DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6B8BE3B-2C02-48D0-B0CB-A7CEFCB7E7DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
