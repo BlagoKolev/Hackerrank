@@ -21,7 +21,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.8.CamelCase4", "..\1.8.Ca
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.9.DivisibleSumPairs", "..\1.9.DivisibleSumPairs\1.9.DivisibleSumPairs.csproj", "{5931F0CD-3155-4669-BC51-83A495AFD91D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1,10,SparseArrays", "..\SparseArrays\1,10,SparseArrays.csproj", "{B0F4B760-5A78-40AC-B415-43A707230F07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.10.SparseArrays", "..\SparseArrays\1.10.SparseArrays.csproj", "{B0F4B760-5A78-40AC-B415-43A707230F07}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1.LonelyInteger", "..\2.1.LonelyInteger\2.1.LonelyInteger.csproj", "{EF941BEF-CCB2-4F48-B87A-1053B3B49316}"
 EndProject
