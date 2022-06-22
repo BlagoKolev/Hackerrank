@@ -44,7 +44,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.2.SubarrayDivision2", "..
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.3.XORStrings3", "..\3.3.XORStrings3\3.3.XORStrings3.csproj", "{005E8DDE-9D63-4BF9-BB08-C23FAB2EA891}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.4.SalesByMatch", "..\3.4.SalesByMatch\3.4.SalesByMatch.csproj", "{5EA76497-F7E5-4CB5-9374-BCBB68938380}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.4.SalesByMatch", "..\3.4.SalesByMatch\3.4.SalesByMatch.csproj", "{5EA76497-F7E5-4CB5-9374-BCBB68938380}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.5.MigratoryBirds", "..\3.5.MigratoryBirds\3.5.MigratoryBirds.csproj", "{5C520804-2144-498A-992B-01C3931E9AD7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -128,6 +130,10 @@ Global
 		{5EA76497-F7E5-4CB5-9374-BCBB68938380}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EA76497-F7E5-4CB5-9374-BCBB68938380}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EA76497-F7E5-4CB5-9374-BCBB68938380}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C520804-2144-498A-992B-01C3931E9AD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C520804-2144-498A-992B-01C3931E9AD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C520804-2144-498A-992B-01C3931E9AD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C520804-2144-498A-992B-01C3931E9AD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
